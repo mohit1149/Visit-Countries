@@ -1,0 +1,37 @@
+.bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 30px;
+}
+.country-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.inner-upper-container {
+  background-color: #1f1f2f;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 50vh;
+  overflow: auto;
+}
+.inner-upper-containers {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.no-country-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.no-country {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
